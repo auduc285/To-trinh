@@ -349,6 +349,91 @@
     background-color: #333;
 }
 
+/* Container Header */
+
+.container__product{
+    margin-top: 40px;
+}
+
+.container__product-header{
+    background-color: rgba(0,0,0,.08);
+    display: flex;
+    align-items: center;
+}
+
+.container__product-header-text{
+    padding-left: 20px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 40px;
+    opacity: 0.8;
+}
+.container__producut-header-link{
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.container__product-header-btn{
+    font-size: 1.5rem;
+    height: 40px;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    padding: 13px 20px;
+    border: 1px solid var(--white-color);
+    border-radius: 2px;
+}
+
+.container__product-header-btn--now{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 1px solid var(--primary-color);
+}
+
+.container__product-header-price{
+    display: flex;
+    align-items: center;
+    background-color: var(--white-color);
+    position: relative;
+    cursor: pointer;
+}
+
+.container__product-header-price-text{
+    font-size: 1.5rem;
+    padding: 12px 20px;
+    width: 200px;
+}
+
+.container__product-header-price-icon{
+    font-size: 1.5rem;
+    padding: 12px 12px;
+}
+
+.container__product-header-price:hover .container__product-header-price-list{
+    display: block;
+    z-index: 999;
+}
+
+.container__product-header-price-list{
+    display: none;
+    background-color: var(--white-color);
+    position: absolute;
+    width: 100%;
+    top: calc(100% + 3px);
+    right: 0;
+}
+
+.container__product-header-price-items{
+    list-style: none;
+    font-size: 1.5rem;
+    align-items: center;
+    padding: 9px 24px;
+    cursor: pointer;
+}
+
+.container__product-header-price-items:hover{
+    color: var(--primary-color);
+}
+
 /* Register */
 
 .register__header{
