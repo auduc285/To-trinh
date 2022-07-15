@@ -120,6 +120,7 @@
 
 .header__nav--viewed-notify:hover .header__notify{
     display: block;
+    z-index: 999;
 }
 
 @keyframes headerNotify{
