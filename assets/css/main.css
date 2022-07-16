@@ -28,6 +28,7 @@
 .header__nav-item-link:hover{
     color: hsla(0,0%,100%,.7);
     cursor: pointer;
+    z-index: 999;
 }
 
 .header__nav-item--bold{
