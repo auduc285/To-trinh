@@ -85,3 +85,15 @@ p{
     cursor: default;
     filter: brightness(80);
 }
+
+/* Colums */
+
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-six{
+    width: calc(100% / 6);
+}
