@@ -29,4 +29,32 @@
     .header__search-btn{
         width: 20px;
     }
+
+    .container__product-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__product-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__product-items{
+        margin-bottom: 20px;
+    }
+
+    .col-full{
+        width: 100%;
+    }
+
+    .container__product-item{
+        display: flex;
+    }
+    .container__product-link{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 }
