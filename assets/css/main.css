@@ -589,6 +589,23 @@
     align-items: center;
     justify-content: center;
 }
+
+.footer__address{
+    margin: 10px 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__adress-home{
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+}
+
+.footer__adress-copyright{
+    font-size: 1.2rem;
+}
 /* Register */
 
 .register__header{
