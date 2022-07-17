@@ -70,7 +70,7 @@ p{
     color: var(--text-black-color);
     border: none;
     height: 36px;
-    min-width: 142px;
+    width: 142px;
     text-decoration: none;
     font-size: 1.4rem;
     cursor: pointer;

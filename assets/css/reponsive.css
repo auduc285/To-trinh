@@ -1,0 +1,32 @@
+@media (max-width: 740px){
+    .header{
+        height: 150px;
+    }
+
+    .header__navbar{
+        display: flex;
+    }
+
+    .header-with__search{
+        display: flex;
+    }
+
+    .header__logo{
+        flex: 1;
+    }
+
+    .header__logo-name{
+        font-size: 1.6rem;
+    }
+    .header__search{
+        flex: 3;
+    }
+
+    .header__cart{
+        flex: 1;
+    }
+
+    .header__search-btn{
+        width: 20px;
+    }
+}
