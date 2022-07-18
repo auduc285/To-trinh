@@ -531,6 +531,10 @@
     color: var(--white-color);
 }
 
+.container__product-footer--now:hover{
+    color: var(--white-color);
+}
+
 /* footer */
 
 .footer{
