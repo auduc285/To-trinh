@@ -56,5 +56,31 @@
         flex-direction: column;
     }
 
-    
+    /* Register */
+
+    .register__header{
+        margin: 20px 5px 10px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register__header-logo{
+        margin-bottom: 10px;
+    }
+
+    .register__header-help-text{
+        display: flex;
+        justify-content: end;
+    }
+
+    .register__body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .register__body-logo{
+        display: flex;
+        
+    }
 }
