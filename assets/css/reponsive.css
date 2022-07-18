@@ -81,6 +81,25 @@
 
     .register__body-logo{
         display: flex;
-        
+        margin: 80px 80px 20px 80px;
+    }
+
+    .register__body-logo-sub{
+        text-align: center;
+    }
+
+    .register__body-forms{
+        display: flex;
+        flex-direction: column;
+        margin: 0 15px 20px 15px;
+    }
+
+    .register__body-or{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register__body-link{
+        margin-bottom: 10px;
     }
 }
