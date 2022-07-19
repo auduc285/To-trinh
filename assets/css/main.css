@@ -944,3 +944,21 @@
 .cart__footer-text-price{
     color: var(--primary-color);
 }
+
+.cart__body-item-quantity{
+    display: flex;
+}
+
+.cart__body-item-quantity-link{
+    width: 30%;
+    text-decoration: none;
+    color: var(--black-color);
+    padding: 1px 6px;
+    border: 1px solid rgba(0,0,0,.09);
+}
+
+.cart__body-item-quantity-view{
+    width: 40%;
+    border: 1px solid rgba(0,0,0,.09);
+    text-align: center;
+}
