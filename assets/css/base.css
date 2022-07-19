@@ -73,6 +73,7 @@ p{
     width: 142px;
     text-decoration: none;
     font-size: 1.4rem;
+    border-radius: 2px;
     cursor: pointer;
 }
 
@@ -96,4 +97,8 @@ p{
 
 .col-six{
     width: calc(100% / 6);
+}
+
+.col-half-four{
+    width: calc(50% / 4);
 }

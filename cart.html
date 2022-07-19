@@ -118,32 +118,71 @@
         <!-- End cart header -->
         <!-- Begin cart body -->
         <div class="cart__body">
-            <table class="cart__body-table">
-                <tr>
-                    <th class="cart__body-table-row--fist"></th>
-                    <th colspan="2">Sản Phẩm</th>
-                    <th>Số Lượng</th>
-                    <th>Số Tiền</th>
-                    <th>Thao Tác</th>
-                </tr>
-                <tr>
-                    <td class="cart__body-table-col">
-                        <input type="checkbox">
-                    </td>
-                    <td class="cart__body-table-col">
-                        <img src="./assets/img/samsung.jpg" alt="" class="cart__body-table-img">
-                    </td>
-                    <td class="cart__body-table-col">Điện thoại Samsung Galaxy M12 (3GB/32GB) - Hàng Chính Hãng</td>
-                    <td class="cart__body-table-col cart__body-table-col--price">
-                        <input type="number" value="1" min="1">
-                    </td>
-                    <td class="cart__body-table-col">2.890.000</td>
-                    <td class="cart__body-table-col">
-                        <i class="fa-solid fa-trash-can"></i>
-                    </td>
-                </tr>
-            </table>
+            <!-- Begin cart top -->
+            <div class="cart__body-top">
+                <div class="cart__body-top-item" style="width: 5%">
+                    <input type="checkbox" class="cart__body-top-item-input">
+                </div>
+                <div class="cart__body-top-item cart__body-top-item--product">Sản Phẩm</div>
+                <div class="cart__body-top-item col-half-four">Đơn Giá</div>
+                <div class="cart__body-top-item col-half-four">Số Lượng</div>
+                <div class="cart__body-top-item col-half-four">Thành Tiền</div>
+                <div class="cart__body-top-item col-half-four">Thao Tác</div>
+            </div>
+            <!-- End cart top -->
+            <!-- Begin cart body -->
+            <div class="cart__body-list">
+                <div class="cart__body-item" style="width: 5%">
+                    <input type="checkbox" class="cart__body-top-item-input">
+                </div>
+                <div class="cart__body-item cart__body-item--product">
+                    <img src="./assets/img/samsung.jpg" alt="" class="cart__body-item-img">
+                    <span class="cart__body-item-name">Điện thoại Samsung Galaxy M12 (3GB/32GB) - Hàng Chính Hãng</span>
+                </div>
+                <div class="cart__body-item col-half-four">2.890.000</div>
+                <div class="cart__body-item col-half-four">1</div>
+                <div class="cart__body-item col-half-four">2.890.000</div>
+                <div class="cart__body-item col-half-four">
+                    <a href="" class="cart__body-item-delete-link">
+                        <i class="cart__body-item-icon fa-solid fa-trash"></i>
+                    </a>
+                    <a href="" class="cart__body-item-delete-link">
+                        <i class="fa-solid fa-eye"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="cart__body-list">
+                <div class="cart__body-item" style="width: 5%">
+                    <input type="checkbox" class="cart__body-top-item-input">
+                </div>
+                <div class="cart__body-item cart__body-item--product">
+                    <img src="./assets/img/samsung.jpg" alt="" class="cart__body-item-img">
+                    <span class="cart__body-item-name">Điện thoại Samsung Galaxy M12 (3GB/32GB) - Hàng Chính Hãng</span>
+                </div>
+                <div class="cart__body-item col-half-four">2.890.000</div>
+                <div class="cart__body-item col-half-four">1</div>
+                <div class="cart__body-item col-half-four">2.890.000</div>
+                <div class="cart__body-item col-half-four">
+                    <a href="" class="cart__body-item-delete-link">
+                        <i class="cart__body-item-icon fa-solid fa-trash"></i>
+                    </a>
+                    <a href="" class="cart__body-item-delete-link">
+                        <i class="fa-solid fa-eye"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- End cart body -->
+            <!-- Begin cart footer -->
+            <div class="cart__footer">
+                <span class="cart__footer-text">
+                    Tổng tiền: 
+                    <span class="cart__footer-text-price">5.780.000</span>
+                </span>
+                <button class="btn btn--primary">Đặt Hàng</button>
+            </div>
         </div>
+        <!-- End cart footer -->
+        <!-- Begin footer -->
         <div class="footer">
             <!-- Begin footer nav -->
             <ul class="footer__nav">
