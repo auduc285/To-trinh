@@ -121,7 +121,7 @@
             <!-- Begin cart top -->
             <div class="cart__body-top">
                 <div class="cart__body-top-item" style="width: 5%">
-                    <input type="checkbox" class="cart__body-top-item-input">
+                    <input type="checkbox" class="cart__body-top-item-input" id="check-all">
                 </div>
                 <div class="cart__body-top-item cart__body-top-item--product">Sản Phẩm</div>
                 <div class="cart__body-top-item col-half-four">Đơn Giá</div>
@@ -133,7 +133,7 @@
             <!-- Begin cart body -->
             <div class="cart__body-list">
                 <div class="cart__body-item" style="width: 5%">
-                    <input type="checkbox" class="cart__body-top-item-input">
+                    <input type="checkbox" class="cart__body-top-item-input" name="check">
                 </div>
                 <div class="cart__body-item cart__body-item--product">
                     <img src="./assets/img/samsung.jpg" alt="" class="cart__body-item-img">
@@ -153,7 +153,7 @@
             </div>
             <div class="cart__body-list">
                 <div class="cart__body-item" style="width: 5%">
-                    <input type="checkbox" class="cart__body-top-item-input">
+                    <input type="checkbox" class="cart__body-top-item-input" name="check">
                 </div>
                 <div class="cart__body-item cart__body-item--product">
                     <img src="./assets/img/samsung.jpg" alt="" class="cart__body-item-img">
@@ -237,4 +237,19 @@
         <!-- End footer -->
     </div>
 </body>
+<script>
+    var check = document.getElementById("check-all");
+    check.onclick = function(){
+        var checkbox = document.getElementsByName("check");
+        if(check.checked == true){
+            for(var i = 0; i < checkbox.length; i++){
+                checkbox[i].checked = true;
+            }
+        }else{
+            for(var i = 0; i < checkbox.length; i++){
+                checkbox[i].checked = false;
+            }
+        }
+    }
+</script>
 </html>
