@@ -162,4 +162,41 @@
         width: 50%;
         padding: 5px;
     }
+
+    /* Pay */
+
+    .pay__body-adress{
+        margin: 10px;
+    }
+
+    .pay__body-list{
+        margin: 0 10px;
+    }
+
+    .pay__body-end{
+        margin: 10px;
+    }
+
+    .pay__body-end-btn{
+        height: 40px;
+    }
+
+    .pay__body-end-bank{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .pay__body-end-button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pay__body-end-btn-text{
+        margin-bottom: 10px;
+    }
+
+    .cart__header-body-text{
+        font-size: 1.8rem;
+    }
 }
