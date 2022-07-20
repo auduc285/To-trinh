@@ -1026,6 +1026,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 0.5px solid #dbdbdb;
+}
+
+.pay__body-items:first-child{
+    border: none;
 }
 
 .pay__body-items--fist{
@@ -1036,4 +1041,128 @@
 .pay__body-items--sec{
     width: calc(50% / 3);
     text-align: center;
+}
+
+.pay__body-items--con{
+    font-size: 1.4rem;
+    align-items: center;
+    display: flex;
+}
+
+.pay__body-items-img{
+    width: 80px;
+    height: 80px;
+}
+
+.pay__body-end{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 12px 20px;
+    background-color: var(--white-color);
+}
+
+.pay__body-end-title{
+    display: flex;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 15px;
+}
+
+.pay__body-end-text{
+    font-size: 1.8rem;
+}
+
+.pay__body-end-btn{
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    padding: 4px 12px;
+    margin: 0 10px;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.pay__body-end-btn:hover{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.pay__body-end-btn--now{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.pay__body-end-bank{
+    display: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.pay__body-end-bank-info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.pay__body-bank-name{
+    font-size: 1.4rem;
+    margin: 10px;
+}
+
+.pay__body-end-bank-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.pay__body-bank-title{
+    font-size: 1.4rem;
+    margin: 10px;
+}
+
+.pay__body-end-adress{
+    display: none;
+    padding: 28px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.pay__body-end-adress-title{
+    font-size: 1.4rem;
+    margin-right: 20px;
+}
+
+.pay__body-end-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid #ccc;
+}
+
+.pay__body-end-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.pay__body-end-item-name{
+    font-size: 1.4rem;
+    margin: 15px 30px;
+}
+
+.pay__body-end-item--total{
+    font-size: 2.8rem;
+    color: var(--primary-color);
+}
+
+.pay__body-end-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.pay__body-end-btn-text{
+    font-size: 1.4rem;
+}
+
+.pay__body-end-btn-link{
+    text-decoration: none;
+    color: #0055AA;
 }
