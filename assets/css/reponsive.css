@@ -102,4 +102,64 @@
     .register__body-link{
         margin-bottom: 10px;
     }
+
+    /* Cart */
+    .cart-header-top{
+        height: 50px;
+    }
+
+    .cart-header-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart-header-item{
+        margin-bottom: 8px;
+    }
+
+    .cart-header-item--app::after{
+        content: '';
+        border: none;
+    }
+
+    .cart__body-top{
+        position: relative;
+    }
+
+    .cart__body-top::after{
+        content: 'Chọn tất cả';
+        position: absolute;
+        margin-left: 25px;
+    }
+
+    .cart__body-top-item--phone{
+        display: none;
+    }
+
+    .cart__body-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart__body-item{
+        width: 100%;
+    }
+
+    .cart__body-item--product{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .cart__body-item-name{
+        flex: 2;
+    }
+    
+    .cart__body-item-price{
+        display: none;
+    }
+
+    .cart__body-item--phone{
+        width: 50%;
+        padding: 5px;
+    }
 }
