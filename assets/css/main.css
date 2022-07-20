@@ -962,3 +962,51 @@
     border: 1px solid rgba(0,0,0,.09);
     text-align: center;
 }
+
+/* Pay */
+
+.pay__body{
+    background-color: #dbdbdb;
+    display: flex;
+}
+
+.pay__body-adress{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px;
+    padding: 12px 20px;
+    background-color: var(--white-color);
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    border-radius: 2px;
+}
+
+.pay__body-adress-top{
+    margin-bottom: 20px;
+}
+
+.pay__body-adress-top-text{
+    margin-left: 10px;
+}
+
+.pay__body-adress-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.pay__body-adress-name{
+    width: 40%;
+    height: 30px;
+    padding: 5px 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline: none;
+}
+
+.pay__body-adress-yourhome{
+    width: 100%;
+    padding: 5px 12px;
+}
