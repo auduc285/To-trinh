@@ -968,12 +968,13 @@
 .pay__body{
     background-color: #dbdbdb;
     display: flex;
+    flex-direction: column;
 }
 
 .pay__body-adress{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 95%;
     margin: 30px;
     padding: 12px 20px;
     background-color: var(--white-color);
@@ -1009,4 +1010,30 @@
 .pay__body-adress-yourhome{
     width: 100%;
     padding: 5px 12px;
+}
+
+.pay__body-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+    background-color: var(--white-color);
+    padding: 12px 20px;
+    font-size: 1.4rem;
+    border-radius: 2px;
+}
+
+.pay__body-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pay__body-items--fist{
+    font-size: 1.8rem;
+    width: 50%;
+}
+
+.pay__body-items--sec{
+    width: calc(50% / 3);
+    text-align: center;
 }
