@@ -207,4 +207,25 @@
     .pay__body-end-bank{
         display: none;
     }
+
+    /* Product */
+
+    .product__body-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product__body-top-btn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product__body-top-btn-add{
+        margin-bottom: 30px;
+    }
+
+    .insurance{
+        display: flex;
+        flex-direction: column;
+    }
 }

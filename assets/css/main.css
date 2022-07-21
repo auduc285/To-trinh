@@ -1275,12 +1275,14 @@
 
 .product__body-top-node{
     display: flex;
+    justify-content: space-between;
 }
 
 .product__body-top-node-return{
     font-size: 1.6rem;
     position: relative;
     cursor: pointer;
+    margin-right: 30px;
 }
 
 
@@ -1319,6 +1321,7 @@
     font-size: 1.6rem;
     position: relative;
     cursor: pointer;
+    margin-right: 30px;
 }
 
 .product__body-top-node-new--icon{
@@ -1336,7 +1339,7 @@
     display: none;
 }
 
-.product__body-top-node-new::before{
+.product__body-top-node-new--icon::after{
     content: '';
     border-width: 15px 15px;
     border-style: solid;
@@ -1348,6 +1351,62 @@
 }
 
 .product__body-top-node-new:hover .product__body-top-node-new-hidden,
-.product__body-top-node-new:hover .product__body-top-node-new::before{
+.product__body-top-node-new:hover .product__body-top-node-new--icon::after{
     display: block;
+}
+
+.product__body-top-node-free{
+    font-size: 1.6rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.product__body-top-node-free--icon{
+    margin-right: 5px;
+    color: var(--primary-color);
+}
+
+.product__body-top-node-free-hidden{
+    position: absolute;
+    width: 100%;
+    background-color: var(--white-color);
+    top: 38px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: none;
+}
+
+.product__body-top-node-free--icon::after{
+    content: '';
+    border-width: 15px 15px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    top: 12px;
+    left: 80px;
+    display: none;
+}
+
+.product__body-top-node-free:hover .product__body-top-node-free-hidden,
+.product__body-top-node-free:hover .product__body-top-node-free--icon::after{
+    display: block;
+}
+
+.product__body-desc{
+    margin: 20px;
+    padding: 12px 20px;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.product__body-desc-top{
+    margin: 12px 0;
+    background-color: #dbdbdb;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+.product__body-desc-container{
+    font-size: 1.4rem;
 }
