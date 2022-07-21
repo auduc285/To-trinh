@@ -178,7 +178,7 @@
     }
 
     .pay__body-end-btn{
-        height: 40px;
+        height: 50px;
     }
 
     .pay__body-end-bank{
@@ -198,5 +198,13 @@
 
     .cart__header-body-text{
         font-size: 1.8rem;
+    }
+
+    .pay__body-items-name{
+        padding: 2px;
+    }
+
+    .pay__body-end-bank{
+        display: none;
     }
 }
