@@ -1166,3 +1166,188 @@
     text-decoration: none;
     color: #0055AA;
 }
+
+/* Product */
+
+.product__body{
+    background-color: #dbdbdb;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__body-top{
+    margin: 20px;
+    background-color: var(--white-color);
+    display: flex;
+}
+
+.product__body-top-left{
+    padding: 12px 20px;
+}
+
+.product__body-top-img{
+    width: 100%;
+}
+
+.product__body-top-right{
+    padding: 12px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__body-top-name{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 2rem;
+}
+
+.product__body-top-price{
+    width: 100%;
+    background-color: #dbdbdb;
+    font-size: 3rem;
+    color: var(--primary-color);
+    line-height: 3rem;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+.product__body-top-insurance{
+    display: flex;
+    font-size: 1.4rem;
+    margin: 16px 20px;
+}
+
+.product__body-top-insurance-l{
+    color: #757575;
+    margin-right: 30px;
+}
+
+.product__body-top-insurance-r--link{
+    text-decoration: none;
+    color: #0088FF;
+    margin-left: 20px;
+}
+
+.product__body-top-insurance-r--icon{
+    margin-right: 5px;
+}
+
+.product__body-top-insurance-r--quantity{
+    text-decoration: none;
+    border: 0.5px solid #ccc;
+    padding: 2px 15px;
+}
+
+.product__body-top-insurance-r--view{
+    width: 30px;
+    text-align: center;
+}
+
+.product__body-top-btn{
+    margin: 15px 20px; 
+    padding: 10px 20px;
+}
+
+.product__body-top-btn-add{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 5px 20px;
+    font-size: 1.6rem;
+    margin-right: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.product__body-top-btn-add--icon{
+    margin-right: 5px;
+}
+
+.product__body-top-btn-pay{
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 5px 20px;
+    font-size: 1.6rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.product__body-top-node{
+    display: flex;
+}
+
+.product__body-top-node-return{
+    font-size: 1.6rem;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.product__body-top-node--icon{
+    margin-right: 5px;
+    color: var(--primary-color);
+}
+
+.product__body-top-node-return-hidden{
+    position: absolute;
+    width: 100%;
+    background-color: var(--white-color);
+    top: 38px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: none;
+}
+
+.product__body-top-node--icon::after{
+    content: '';
+    border-width: 15px 15px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    top: 12px;
+    left: 80px;
+    display: none;
+}
+
+.product__body-top-node-return:hover .product__body-top-node-return-hidden,
+.product__body-top-node-return:hover .product__body-top-node--icon::after{
+    display: block;
+}
+
+.product__body-top-node-new{
+    font-size: 1.6rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.product__body-top-node-new--icon{
+    margin-right: 5px;
+    color: var(--primary-color);
+}
+
+.product__body-top-node-new-hidden{
+    position: absolute;
+    width: 100%;
+    background-color: var(--white-color);
+    top: 38px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: none;
+}
+
+.product__body-top-node-new::before{
+    content: '';
+    border-width: 15px 15px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    top: 12px;
+    left: 80px;
+    display: none;
+}
+
+.product__body-top-node-new:hover .product__body-top-node-new-hidden,
+.product__body-top-node-new:hover .product__body-top-node-new::before{
+    display: block;
+}
