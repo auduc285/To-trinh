@@ -60,6 +60,9 @@
     opacity: 1;
 }
 
+.manager__nav-item-text{
+    display: block;
+}
 .manager__body{
     width: 80%;
 }
@@ -90,4 +93,59 @@
     text-decoration: none;
     color: var(--white-color);
     font-size: 2rem;
+}
+
+.manager__body-list{
+    padding: 70px 20px;
+    
+}
+
+.manager__body-item{
+    font-size: 1.6rem;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+.manager__body-item-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 10px;
+}
+
+.manager__body-item--total,
+.manager__body-item--bell{
+    background-color: #27a9e3;
+}
+
+.manager__body-item--staff,
+.manager__body-item--slider{
+    background-color: #28b779;
+}
+
+.manager__body-item--manufacturer{
+    background-color: #ffb848;
+}
+
+.manager__body-item--product{
+    background-color: #da542e;
+}
+
+.manager__body-item--bill{
+    background-color: #2255a4;
+}
+.manager__body-item--icon{
+    padding: 8px 0;
+}
+
+.manager__body-item-quantity{
+    padding: 8px 0;
+}
+
+.manager__body-item-text{
+    padding: 8px;
 }

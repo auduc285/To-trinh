@@ -14,3 +14,11 @@ html{
     --black-color: #000;
     --white-color: #fff;
 }
+
+.col{
+    float: left;
+}
+
+.col-three{
+    width: calc(100% / 3.2);
+}

@@ -24,31 +24,49 @@
             <li class="manager__nav-item manager__nav-item--now">
                 <a href="" class="manager__nav-item-link manager__nav-item--now">
                     <i class="manager__nav-item--icon fa-solid fa-desktop"></i>
-                    Tổng Quan
+                    <span class="manager__nav-item-text">Tổng Quan</span>
                 </a>
             </li>
             <li class="manager__nav-item">
                 <a href="" class="manager__nav-item-link">
                     <i class="manager__nav-item--icon fa-solid fa-users"></i>
-                    Quản Lý Nhân Viên
+                    <span class="manager__nav-item-text">Quản Lý Nhân Viên</span>
+                </a>
+            </li>
+            <li class="manager__nav-item">
+                <a href="" class="manager__nav-item-link">
+                    <i class="manager__nav-item--icon fa-solid fa-user"></i>
+                    <span class="manager__nav-item-text">Quản Lý Khách Hàng</span>
                 </a>
             </li>
             <li class="manager__nav-item">
                 <a href="" class="manager__nav-item-link">
                     <i class="manager__nav-item--icon fa-solid fa-industry"></i>
-                    Quản Lý Nhà Sản Xuất
+                    <span class="manager__nav-item-text">Quản Lý Nhà Sản Xuất</span>
                 </a>
             </li>
             <li class="manager__nav-item">
                 <a href="" class="manager__nav-item-link">
                     <i class="manager__nav-item--icon fa-solid fa-mobile"></i>
-                    Quản Lý Sản Phẩm
+                    <span class="manager__nav-item-text">Quản Lý Sản Phẩm</span>
                 </a>
             </li>
             <li class="manager__nav-item">
                 <a href="" class="manager__nav-item-link">
                     <i class="manager__nav-item--icon fa-solid fa-money-bill"></i>
-                    Quản Lý Hóa Đơn
+                    <span class="manager__nav-item-text">Quản Lý Hóa Đơn</span>
+                </a>
+            </li>
+            <li class="manager__nav-item">
+                <a href="" class="manager__nav-item-link">
+                    <i class="manager__nav-item--icon fa-solid fa-bell"></i>
+                    <span class="manager__nav-item-text">Quản Lý Thông Báo</span>
+                </a>
+            </li>
+            <li class="manager__nav-item">
+                <a href="" class="manager__nav-item-link">
+                    <i class="manager__nav-item--icon fa-solid fa-pager"></i>
+                    <span class="manager__nav-item-text">Slider</span>
                 </a>
             </li>
         </ul>
@@ -63,7 +81,68 @@
                     <i class="manager__body-header-icon fa-solid fa-user"></i>
                 </a>
             </div>
+            <!-- List -->
+            <div class="manager__body-list">
+                <div class="manager__body-item col col-three manager__body-item--total">
+                    <a href="" class="manager__body-item-link">
+                        <i class="manager__body-item--icon fa-solid fa-users"></i>
+                        <span class="manager__body-item-quantity">2540</span>
+                        <span class="manager__body-item-text">Người Dùng</span>
+                    </a>
+                </div>
+                <div class="manager__body-item col col-three manager__body-item--staff">
+                    <a href="" class="manager__body-item-link">
+                        <i class="manager__body-item--icon fa-solid fa-users"></i>
+                        <span class="manager__body-item-quantity">2540</span>
+                        <span class="manager__body-item-text">Nhân Viên</span>
+                    </a>
+                </div>
+                <div class="manager__body-item col col-three manager__body-item--manufacturer">
+                    <a href="" class="manager__body-item-link">
+                        <i class="manager__body-item--icon fa-solid fa-industry"></i>
+                        <span class="manager__body-item-quantity">2540</span>
+                        <span class="manager__body-item-text">Nhà Sản Xuât</span>
+                    </a>
+                </div>
+                <div class="manager__body-item col col-three manager__body-item--product">
+                    <a href="" class="manager__body-item-link">
+                        <i class="manager__body-item--icon fa-solid fa-mobile"></i>
+                        <span class="manager__body-item-quantity">2540</span>
+                        <span class="manager__body-item-text">Sản Phẩm</span>
+                    </a>
+                </div>
+                <div class="manager__body-item col col-three manager__body-item--bill">
+                    <a href="" class="manager__body-item-link">
+                        <i class="manager__body-item--icon fa-solid fa-money-bill"></i>
+                        <span class="manager__body-item-quantity">2540</span>
+                        <span class="manager__body-item-text">Hóa Đơn</span>
+                    </a>
+                </div>
+                <div class="manager__body-item col col-three manager__body-item--bell">
+                    <a href="" class="manager__body-item-link">
+                        <i class="manager__body-item--icon fa-solid fa-bell"></i>
+                        <span class="manager__body-item-quantity">2540</span>
+                        <span class="manager__body-item-text">Thông Báo</span>
+                    </a>
+                </div>
+                <div class="manager__body-item col col-three manager__body-item--slider">
+                    <a href="" class="manager__body-item-link">
+                        <i class="manager__body-item--icon fa-solid fa-pager"></i>
+                        <span class="manager__body-item-quantity">2540</span>
+                        <span class="manager__body-item-text">Slider</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+<script>
+    var btn = document.querySelector(".manager__body-header-icon");
+    var navText = document.querySelectorAll(".manager__nav-item-text");
+    btn.addEventListener("click", function(){
+        if(navText.style.display === block){
+            navText.style.display = none;
+        }
+    })
+</script>
 </html>
