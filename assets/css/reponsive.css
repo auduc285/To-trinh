@@ -228,4 +228,20 @@
         display: flex;
         flex-direction: column;
     }
+
+    /* Trang admin */
+    .admin{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .admin__login{
+        margin: 12px 5px;
+    }
+
+    .admin__login-input{
+        width: 100%;
+    }
 }
