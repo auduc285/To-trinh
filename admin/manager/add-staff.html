@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản Lý</title>
+    <title>Thêm Nhân Viên</title>
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/reposive.css">
@@ -21,14 +21,14 @@
                     <span class="manager__nav-item-user">Xin chào, Âu Quang Đức</span>
                 </a>
             </li>
-            <li class="manager__nav-item manager__nav-item--now">
-                <a href="./index.html" class="manager__nav-item-link manager__nav-item--now">
+            <li class="manager__nav-item">
+                <a href="./index.html" class="manager__nav-item-link">
                     <i class="manager__nav-item--icon fa-solid fa-desktop"></i>
                     <span class="manager__nav-item-text">Tổng Quan</span>
                 </a>
             </li>
-            <li class="manager__nav-item">
-                <a href="./staff.html" class="manager__nav-item-link">
+            <li class="manager__nav-item manager__nav-item--now">
+                <a href="./staff.html" class="manager__nav-item-link manager__nav-item--now">
                     <i class="manager__nav-item--icon fa-solid fa-users"></i>
                     <span class="manager__nav-item-text">Quản Lý Nhân Viên</span>
                 </a>
@@ -81,58 +81,20 @@
                     <i class="manager__body-header-icon fa-solid fa-user"></i>
                 </a>
             </div>
-            <!-- List -->
-            <div class="manager__body-list">
-                <div class="manager__body-item col col-three manager__body-item--total">
-                    <a href="" class="manager__body-item-link">
-                        <i class="manager__body-item--icon fa-solid fa-users"></i>
-                        <span class="manager__body-item-quantity">2540</span>
-                        <span class="manager__body-item-text">Người Dùng</span>
-                    </a>
-                </div>
-                <div class="manager__body-item col col-three manager__body-item--staff">
-                    <a href="" class="manager__body-item-link">
-                        <i class="manager__body-item--icon fa-solid fa-users"></i>
-                        <span class="manager__body-item-quantity">2540</span>
-                        <span class="manager__body-item-text">Nhân Viên</span>
-                    </a>
-                </div>
-                <div class="manager__body-item col col-three manager__body-item--manufacturer">
-                    <a href="" class="manager__body-item-link">
-                        <i class="manager__body-item--icon fa-solid fa-industry"></i>
-                        <span class="manager__body-item-quantity">2540</span>
-                        <span class="manager__body-item-text">Nhà Sản Xuât</span>
-                    </a>
-                </div>
-                <div class="manager__body-item col col-three manager__body-item--product">
-                    <a href="" class="manager__body-item-link">
-                        <i class="manager__body-item--icon fa-solid fa-mobile"></i>
-                        <span class="manager__body-item-quantity">2540</span>
-                        <span class="manager__body-item-text">Sản Phẩm</span>
-                    </a>
-                </div>
-                <div class="manager__body-item col col-three manager__body-item--bill">
-                    <a href="" class="manager__body-item-link">
-                        <i class="manager__body-item--icon fa-solid fa-money-bill"></i>
-                        <span class="manager__body-item-quantity">2540</span>
-                        <span class="manager__body-item-text">Hóa Đơn</span>
-                    </a>
-                </div>
-                <div class="manager__body-item col col-three manager__body-item--bell">
-                    <a href="" class="manager__body-item-link">
-                        <i class="manager__body-item--icon fa-solid fa-bell"></i>
-                        <span class="manager__body-item-quantity">2540</span>
-                        <span class="manager__body-item-text">Thông Báo</span>
-                    </a>
-                </div>
-                <div class="manager__body-item col col-three manager__body-item--slider">
-                    <a href="" class="manager__body-item-link">
-                        <i class="manager__body-item--icon fa-solid fa-pager"></i>
-                        <span class="manager__body-item-quantity">2540</span>
-                        <span class="manager__body-item-text">Slider</span>
-                    </a>
-                </div>
-            </div>
+            <h3>Thêm Nhân Viên</h3>
+            <form action="" class="add-staff__body-add">
+                <input type="text" placeholder="Họ Và Tên" class="add-staff__body-form-input" required>
+                <span class="add-staff__body-form-text">Ảnh</span>
+                <input type="file" class="add-staff__body-form-input" required>
+                <input type="date" class="add-staff__body-form-input" required>
+                <select name="" id="" required>
+                    <option value="">Nam</option>
+                    <option value="">Nữ</option>
+                </select>
+                <input type="text" placeholder="Địa Chỉ" class="add-staff__body-form-input" required>
+                <input type="number" placeholder="Số Điện Thoại" class="add-staff__body-form-input" required>
+                <button class="add-staff__body-form-btn">Thêm</button>
+            </form>
         </div>
     </div>
 </body>

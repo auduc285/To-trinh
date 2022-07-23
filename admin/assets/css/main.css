@@ -2,6 +2,7 @@
 
 .manager{
     display: flex;
+    width: 100%;
 }
 
 .manager__nav{
@@ -148,4 +149,57 @@
 
 .manager__body-item-text{
     padding: 8px;
+}
+
+/* Staff */
+
+.staff__body-table{
+    width: 100%;
+    padding: 0px 20px;
+    font-size: 1.4rem;
+}
+
+th, td{
+    border: 1px solid var(--black-color);
+    text-align: center;
+}
+
+.staff__body-table-img{
+    width: 80px;
+    height: 80px;
+}
+
+.staff__body-table--icon{
+    margin: 5px;
+}
+
+.staff__body-table-link{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.staff__body-add{
+    padding: 10px 35px;
+    font-size: 1.4rem;
+}
+
+.staff__body-add-link{
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 1.4rem;
+}
+
+/* Add staff */
+
+.add-staff__body-add{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+}
+
+.add-staff__body-form-input{
+    height: 30px;
+    margin: 12px 0;
+    padding: 5px 10px;
+    outline: none;
 }
