@@ -81,20 +81,39 @@
                     <i class="manager__body-header-icon fa-solid fa-user"></i>
                 </a>
             </div>
-            <h3>Thêm Nhân Viên</h3>
-            <form action="" class="add-staff__body-add">
-                <input type="text" placeholder="Họ Và Tên" class="add-staff__body-form-input" required>
-                <span class="add-staff__body-form-text">Ảnh</span>
-                <input type="file" class="add-staff__body-form-input" required>
-                <input type="date" class="add-staff__body-form-input" required>
-                <select name="" id="" required>
-                    <option value="">Nam</option>
-                    <option value="">Nữ</option>
-                </select>
-                <input type="text" placeholder="Địa Chỉ" class="add-staff__body-form-input" required>
-                <input type="number" placeholder="Số Điện Thoại" class="add-staff__body-form-input" required>
-                <button class="add-staff__body-form-btn">Thêm</button>
-            </form>
+            <div class="add-staff_body-a">
+                <form action="" class="add-staff__body">
+                    <h3 class="add-staff__body-title">Thêm Nhân Viên</h3>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Họ Và Tên</span>
+                        <input type="text" placeholder="Họ Và Tên" class="add-staff__body-item-inp">
+                    </div>  
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Ảnh</span>
+                        <input type="file" class="add-staff__body-item-inp">
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Giới Tính</span>
+                        <select name="" id="">
+                            <option value="">Nam</option>
+                            <option value="">Nữ</option>
+                        </select>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Ngày Sinh</span>
+                        <input type="date" class="add-staff__body-item-inp">
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Địa Chỉ</span>
+                        <input type="text" placeholder="Địa Chỉ" class="add-staff__body-item-inp">
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Số Điện Thoại</span>
+                        <input type="number" placeholder="Số Điện Thoại" class="add-staff__body-item-inp">
+                    </div>
+                    <button class="btn">Thêm</button>
+                </form>
+            </div>
         </div>
     </div>
 </body>

@@ -22,3 +22,17 @@ html{
 .col-three{
     width: calc(100% / 3.2);
 }
+
+.btn{
+    border: 1px solid #1f262d;
+    border-radius: 2px;
+    background-color: #1f262d;
+    height: 40px;
+    color: var(--white-color);
+    opacity: 0.7;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 1;
+}

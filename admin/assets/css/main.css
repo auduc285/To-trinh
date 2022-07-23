@@ -66,6 +66,8 @@
 }
 .manager__body{
     width: 80%;
+    display: flex;
+    flex-direction: column;
 }
 
 .manager__body-header{
@@ -157,10 +159,11 @@
     width: 100%;
     padding: 0px 20px;
     font-size: 1.4rem;
+    background-color: #ccc;
 }
 
-th, td{
-    border: 1px solid var(--black-color);
+td, th{
+    border-bottom: 1px solid var(--black-color);
     text-align: center;
 }
 
@@ -191,15 +194,39 @@ th, td{
 
 /* Add staff */
 
-.add-staff__body-add{
+.add-staff_body-a{
+    background-color: #ccc;
     display: flex;
-    flex-direction: column;
-    padding: 12px 20px;
 }
 
-.add-staff__body-form-input{
+.add-staff__body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 20px;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-size: 1.8rem;
+    padding: 20px 20px;
+    border-radius: 2px;
+}
+
+.add-staff__body-title{
+    text-align: center;
+}
+
+.add-staff__body-item{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-staff__body-item-text{
+    margin: 5px;
+}
+
+.add-staff__body-item-inp{
     height: 30px;
-    margin: 12px 0;
-    padding: 5px 10px;
     outline: none;
+    padding: 5px 20px;
 }
