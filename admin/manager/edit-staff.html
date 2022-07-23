@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản Lý Nhân Viên</title>
+    <title>Sửa Nhân Viên</title>
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/reposive.css">
@@ -28,7 +28,7 @@
                 </a>
             </li>
             <li class="manager__nav-item manager__nav-item--now">
-                <a href="" class="manager__nav-item-link manager__nav-item--now">
+                <a href="./staff.html" class="manager__nav-item-link manager__nav-item--now">
                     <i class="manager__nav-item--icon fa-solid fa-users"></i>
                     <span class="manager__nav-item-text">Quản Lý Nhân Viên</span>
                 </a>
@@ -81,58 +81,43 @@
                     <i class="manager__body-header-icon fa-solid fa-user"></i>
                 </a>
             </div>
-            <!-- Table -->
-            <div class="staff__body-add">
-                <a href="./add-staff.html" class="staff__body-add-link">
-                    <i class="fa-solid fa-user-plus"></i>
-                </a>
+            <div class="add-staff_body-a">
+                <form action="" class="add-staff__body">
+                    <h3 class="add-staff__body-title">Sửa Nhân Viên</h3>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Họ Và Tên</span>
+                        <input type="text" value="Hồ Sỹ Mạnh" placeholder="Họ Và Tên" class="add-staff__body-item-inp" required>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Ảnh Cũ</span>
+                        <img src="../assets/img/manh.png" alt="" class="add-staff__body-img-old">
+                    </div>  
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Sửa Ảnh</span>
+                        <input type="file" class="add-staff__body-item-inp" required>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Giới Tính</span>
+                        <select name="" id="">
+                            <option value="">Nam</option>
+                            <option value="">Nữ</option>
+                        </select>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Ngày Sinh</span>
+                        <input type="date" class="add-staff__body-item-inp" required>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Địa Chỉ</span>
+                        <input type="text" value="Tân Long, Tân Kỳ, Nghệ AN" placeholder="Địa Chỉ" class="add-staff__body-item-inp" required>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Số Điện Thoại</span>
+                        <input type="number" value="0867785373" placeholder="Số Điện Thoại" class="add-staff__body-item-inp" required>
+                    </div>
+                    <button class="btn">Sửa</button>
+                </form>
             </div>
-            <table class="staff__body-table">
-                <tr>
-                    <th>ID</th>
-                    <th>Ảnh</th>
-                    <th>Họ Và Tên</th>
-                    <th>Giới Tính</th>
-                    <th>Ngày Sinh</th>
-                    <th>Địa Chỉ</th>
-                    <th>Số Điện Thoại</th>
-                    <th>Tính Năng</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>
-                        <img src="../assets/img/manh.png" alt="" class="staff__body-table-img">
-                    </td>
-                    <td>Hồ Sỹ Mạnh</td>
-                    <td>Nữ</td>
-                    <td>28/9/2005</td>
-                    <td>Tân Long, Tân Kỳ, Nghệ AN</td>
-                    <td>0867785373</td>
-                    <td>
-                        <a href="" class="staff__body-table-link">
-                            <i class="staff__body-table--icon fa-solid fa-pen"></i>
-                            <i class="staff__body-table--icon fa-solid fa-trash"></i>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>
-                        <img src="../assets/img/huy.png" alt="" class="staff__body-table-img">
-                    </td>
-                    <td>Nguyễn Văn Huy</td>
-                    <td>Nam</td>
-                    <td>28/9/1993</td>
-                    <td>Tân Long, Tân Kỳ, Nghệ AN</td>
-                    <td>0867785373</td>
-                    <td>
-                        <a href="" class="staff__body-table-link">
-                            <i title="Sửa" class="staff__body-table--icon fa-solid fa-pen"></i>
-                            <i title="Xóa" class="staff__body-table--icon fa-solid fa-trash"></i>
-                        </a>
-                    </td>
-                </tr>
-            </table>
         </div>
     </div>
 </body>

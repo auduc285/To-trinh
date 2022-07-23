@@ -230,3 +230,10 @@ td, th{
     outline: none;
     padding: 5px 20px;
 }
+
+/* Edit staff */
+
+.add-staff__body-img-old{
+    width: 100px;
+    height: 100px;
+}
