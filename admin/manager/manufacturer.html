@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản Lý Khách Hàng</title>
+    <title>Quản Lý Nhà Sản Xuất</title>
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/reposive.css">
@@ -33,14 +33,14 @@
                     <span class="manager__nav-item-text">Quản Lý Nhân Viên</span>
                 </a>
             </li>
-            <li class="manager__nav-item manager__nav-item--now">
-                <a href="./customer.html" class="manager__nav-item-link manager__nav-item--now">
+            <li class="manager__nav-item">
+                <a href="./customer.html" class="manager__nav-item-link">
                     <i class="manager__nav-item--icon fa-solid fa-user"></i>
                     <span class="manager__nav-item-text">Quản Lý Khách Hàng</span>
                 </a>
             </li>
-            <li class="manager__nav-item">
-                <a href="./manufacturer.html" class="manager__nav-item-link">
+            <li class="manager__nav-item manager__nav-item--now">
+                <a href="./manufacturer.html" class="manager__nav-item-link manager__nav-item--now">
                     <i class="manager__nav-item--icon fa-solid fa-industry"></i>
                     <span class="manager__nav-item-text">Quản Lý Nhà Sản Xuất</span>
                 </a>
@@ -82,35 +82,34 @@
                 </a>
             </div>
             <!-- Table -->
+            <div class="staff__body-add">
+                <a href="./add-manufacturer.html" title="Thêm" class="staff__body-add-link">
+                    <i class="fa-solid fa-user-plus"></i>
+                </a>
+            </div>
             <table class="staff__body-table">
                 <tr>
                     <th>ID</th>
-                    <th>Họ Và Tên</th>
-                    <th>Số Điện Thoại</th>
-                    <th>Email</th>
+                    <th>Tên</th>
                     <th>Tính Năng</th>
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Nguyễn Tuấn Mạnh</td>
-                    <td>0867785373</td>
-                    <td>manh28@gmail.com</td>
+                    <td>Apple</td>
                     <td>
-                        <a href="./edit-customer.html" title="Sửa" class="staff__body-table-link">
-                            <i class="staff__body-table--icon fa-solid fa-pen"></i>
+                        <a href="./edit-manufacturer.html" class="staff__body-table-link">
+                            <i title="Sửa" class="staff__body-table--icon fa-solid fa-pen"></i>
                         </a>
                         <a href="" title="Xóa" class="staff__body-table-link">
-                            <i class="staff__body-table--icon fa-solid fa-trash"></i>
+                            <i title="Xóa" class="staff__body-table--icon fa-solid fa-trash"></i>
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>Tạ Ngọc Tú</td>
-                    <td>0867785373</td>
-                    <td>tuta18@gmail.com</td>
+                    <td>Oppo</td>
                     <td>
-                        <a href="./edit-customer.html" class="staff__body-table-link">
+                        <a href="./edit-manufacturer.html" class="staff__body-table-link">
                             <i title="Sửa" class="staff__body-table--icon fa-solid fa-pen"></i>
                         </a>
                         <a href="" title="Xóa" class="staff__body-table-link">
