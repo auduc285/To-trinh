@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản Lý Hóa Đơn</title>
+    <title>Sửa Hóa Đơn</title>
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/reposive.css">
@@ -40,7 +40,7 @@
                 </a>
             </li>
             <li class="manager__nav-item">
-                <a href="./product.html" class="manager__nav-item-link">
+                <a href="./manufacturer.html" class="manager__nav-item-link">
                     <i class="manager__nav-item--icon fa-solid fa-industry"></i>
                     <span class="manager__nav-item-text">Quản Lý Nhà Sản Xuất</span>
                 </a>
@@ -81,40 +81,47 @@
                     <i class="manager__body-header-icon fa-solid fa-user"></i>
                 </a>
             </div>
-            <!-- Table -->
-            <table class="staff__body-table">
-                <tr>
-                    <th>ID</th>
-                    <th>Sản Phẩm</th>
-                    <th>Tổng Tiền</th>
-                    <th>Họ Tên Người Nhận</th>
-                    <th>Địa Chỉ Người Nhận</th>
-                    <th>Số Điện Thoại Người Nhận</th>
-                    <th>Thanh Toán</th>
-                    <th>Ảnh</th>
-                    <th>Trạng Thái</th>
-                    <th>Tính Năng</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Điện thoại Samsung Galaxy M12 (3GB/32GB) - Hàng Chính Hãng</td>
-                    <td>2.890.000</td>
-                    <td>Âu Quang Đức</td>
-                    <td>Tân Long, Tân Kỳ, Nghệ AN</td>
-                    <td>0867785373</td>
-                    <td>Chuyển Khoản</td>
-                    <td></td>
-                    <td>Đang Giao</td>
-                    <td>
-                        <a href="./edit-bill.html" class="staff__body-table-link">
-                            <i title="Sửa" class="staff__body-table--icon fa-solid fa-pen"></i>
-                        </a>
-                        <a href="" title="Xóa" class="staff__body-table-link">
-                            <i title="Xóa" class="staff__body-table--icon fa-solid fa-trash"></i>
-                        </a>
-                    </td>
-                </tr>
-            </table>
+            <div class="add-staff_body-a">
+                <form action="" class="add-staff__body">
+                    <h3 class="add-staff__body-title">Sửa Hóa Đơn</h3>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Sản Phẩm</span>
+                        <input type="text" value="Điện thoại Samsung Galaxy M12 (3GB/32GB) - Hàng Chính Hãng" placeholder="Sản Phẩm" class="add-staff__body-item-inp" required>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Tổng Tiền</span>
+                        <input type="number" value="2890000" placeholder="Tổng Tiền" class="add-staff__body-item-inp" required>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Họ Tên Người Nhận</span>
+                        <input type="text" value="Âu Quang Đức" placeholder="Họ Tên Người Nhận" class="add-staff__body-item-inp" required>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Số Điện Thoại Người Nhận</span>
+                        <input type="number" value="0379521705" placeholder="Số Điện Thoại Người Nhận" class="add-staff__body-item-inp" required>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Hình Thức Thanh Toán</span>
+                        <select name="" id="">
+                            <option value="">Chuyển Khoản</option>
+                            <option value="">Thanh Toán Khi Nhận Hàng</option>
+                        </select>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Ảnh Cũ</span>
+                        <img src="" alt="" class="add-staff__body-img-old">
+                    </div>  
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Sửa Ảnh</span>
+                        <input type="file" class="add-staff__body-item-inp" required>
+                    </div>
+                    <div class="add-staff__body-item">
+                        <span class="add-staff__body-item-text">Trạng Thái</span>
+                        <input type="text" value="Đang Giao" placeholder="Trạng Thái" class="add-staff__body-item-inp" required>
+                    </div>
+                    <button class="btn">Sửa</button>
+                </form>
+            </div>
         </div>
     </div>
 </body>
